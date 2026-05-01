@@ -45,8 +45,7 @@ public class Task5 {
         } else {
             System.out.println("Unknown designation. No permissions assigned.");
         }
-
-        // show current permission status
+        
         System.out.println("ACCESS RIGHTS STATUS : ");
         System.out.println("File Name : " + confidentialFile.getName());
         System.out.println("Readable  : " + confidentialFile.canRead());
